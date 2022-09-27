@@ -1,0 +1,137 @@
+[debug] [2022-09-27T13:49:31.067Z] ----------------------------------------------------------------------
+[debug] [2022-09-27T13:49:31.068Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-27T13:49:31.069Z] CLI Version:   11.10.0
+[debug] [2022-09-27T13:49:31.069Z] Platform:      win32
+[debug] [2022-09-27T13:49:31.069Z] Node Version:  v16.15.1
+[debug] [2022-09-27T13:49:31.069Z] Time:          Tue Sep 27 2022 20:49:31 GMT+0700 (Indochina Time)
+[debug] [2022-09-27T13:49:31.069Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-27T13:49:31.074Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-27T13:49:31.074Z] > authorizing via signed-in user (baothong117@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\mmo\blocto\web3\create-dapp-solana-nextjs
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-27T13:49:52.947Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-09-27T13:49:53.786Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-09-27T13:49:53.786Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project solana-f9a38 (solana) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-27T13:50:39.798Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-09-27T13:50:39.966Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-09-27T13:50:39.967Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.10.0","browserURL":"https://www.gstatic.com/firebasejs/9.10.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.10.0/firebase.tgz"},"live":{"version":"9.10","browserURL":"https://www.gstatic.com/firebasejs/live/9.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.10/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.10.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.10.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.10.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.10.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.10.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.10.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.10.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.memory.js"}}
+[info] +  Wrote yes/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\mmo\blocto\web3\create-dapp-solana-nextjs 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=171332122&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-09-27T13:51:15.865Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-09-27T13:51:15.865Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-09-27T13:51:16.373Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-09-27T13:51:16.374Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-09-27T13:51:16.392Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-09-27T13:51:16.917Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-09-27T13:51:16.917Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"thongtop","id":100074782,"node_id":"U_kgDOBfcFHg","avatar_url":"https://avatars.githubusercontent.com/u/100074782?v=4","gravatar_id":"","url":"https://api.github.com/users/thongtop","html_url":"https://github.com/thongtop","followers_url":"https://api.github.com/users/thongtop/followers","following_url":"https://api.github.com/users/thongtop/following{/other_user}","gists_url":"https://api.github.com/users/thongtop/gists{/gist_id}","starred_url":"https://api.github.com/users/thongtop/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thongtop/subscriptions","organizations_url":"https://api.github.com/users/thongtop/orgs","repos_url":"https://api.github.com/users/thongtop/repos","events_url":"https://api.github.com/users/thongtop/events{/privacy}","received_events_url":"https://api.github.com/users/thongtop/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":1,"public_gists":0,"followers":0,"following":0,"created_at":"2022-02-20T12:16:52Z","updated_at":"2022-09-18T11:52:39Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":130,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as thongtop 
+[info] 
+[debug] [2022-09-27T13:51:32.893Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:51:33.414Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-09-27T13:51:33.415Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:51:35.161Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:51:35.670Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-09-27T13:51:35.671Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:51:41.708Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:51:42.223Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-09-27T13:51:42.223Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:51:45.022Z] >>> [apiv2][query] GET https://api.github.com/repos/u/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:51:45.490Z] <<< [apiv2][status] GET https://api.github.com/repos/u/actions/secrets/public-key 404
+[debug] [2022-09-27T13:51:45.490Z] <<< [apiv2][body] GET https://api.github.com/repos/u/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:51:47.273Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:51:47.753Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-09-27T13:51:47.754Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:51:48.923Z] >>> [apiv2][query] GET https://api.github.com/repos/u/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:51:49.493Z] <<< [apiv2][status] GET https://api.github.com/repos/u/actions/secrets/public-key 404
+[debug] [2022-09-27T13:51:49.494Z] <<< [apiv2][body] GET https://api.github.com/repos/u/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:52:10.978Z] >>> [apiv2][query] GET https://api.github.com/repos/abc/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:52:11.509Z] <<< [apiv2][status] GET https://api.github.com/repos/abc/actions/secrets/public-key 404
+[debug] [2022-09-27T13:52:11.510Z] <<< [apiv2][body] GET https://api.github.com/repos/abc/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:53:02.762Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:53:03.335Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key 404
+[debug] [2022-09-27T13:53:03.336Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:53:04.364Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:53:04.863Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key 404
+[debug] [2022-09-27T13:53:04.863Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:53:05.273Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:53:05.793Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key 404
+[debug] [2022-09-27T13:53:05.794Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/thongtop/solanademo.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:54:41.137Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:54:42.139Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-09-27T13:54:42.140Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:54:42.585Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:54:43.170Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-09-27T13:54:43.170Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:54:43.625Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:54:44.078Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-09-27T13:54:44.078Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:54:53.036Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:54:53.609Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2022-09-27T13:54:53.609Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:56:56.888Z] >>> [apiv2][query] GET https://api.github.com/repos/no/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:56:57.630Z] <<< [apiv2][status] GET https://api.github.com/repos/no/actions/secrets/public-key 404
+[debug] [2022-09-27T13:56:57.631Z] <<< [apiv2][body] GET https://api.github.com/repos/no/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:56:59.350Z] >>> [apiv2][query] GET https://api.github.com/repos/No/actions/secrets/public-key type=owner
+[debug] [2022-09-27T13:56:59.879Z] <<< [apiv2][status] GET https://api.github.com/repos/No/actions/secrets/public-key 404
+[debug] [2022-09-27T13:56:59.879Z] <<< [apiv2][body] GET https://api.github.com/repos/No/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-09-27T13:57:08.507Z] ----------------------------------------------------------------------
+[debug] [2022-09-27T13:57:08.509Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-27T13:57:08.510Z] CLI Version:   11.10.0
+[debug] [2022-09-27T13:57:08.510Z] Platform:      win32
+[debug] [2022-09-27T13:57:08.510Z] Node Version:  v16.15.1
+[debug] [2022-09-27T13:57:08.511Z] Time:          Tue Sep 27 2022 20:57:08 GMT+0700 (Indochina Time)
+[debug] [2022-09-27T13:57:08.511Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-27T13:57:08.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-27T13:57:08.516Z] > authorizing via signed-in user (baothong117@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\mmo\blocto\web3\create-dapp-solana-nextjs
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
